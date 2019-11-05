@@ -14,8 +14,8 @@ COPY ./mobile-cameraupload-backend /app/backend
 RUN rm -Rf /app/backend/node_modules
 # Install Backend and Frontend
 ENV VUE_APP_HACKATHON_BACKEND=/backend
-RUN cd /app/backend && npm i && \
-    cd /app/frontend && npm i && npm run build
+RUN cd /app/backend && rm .env && npm i && \
+    cd /app/frontend && rm .env && npm i && npm run build
 # Run Startup Script
 WORKDIR /app
 ENV BACKENDPORT=3000
