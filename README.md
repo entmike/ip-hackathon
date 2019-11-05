@@ -2,7 +2,7 @@
 
 ## Overview
 
-This GitHub Repository contains source code to a few different apps that were used in the IP Hackathon 2019 competition.
+This GitHub Repository contains source code to a few different apps that were used in the IP Hackathon August 2019 competition.
 
 ## Application Overview
 
