@@ -21,7 +21,7 @@ docker run -p 80:80 --name monitor \
    -e AWS_ACCESS_KEY=YOURAWSACCESSKEY \
    -e AWS_SECRET_ACCESS_KEY=YourAWSSecretAccessKey \
    -e AWS_BUCKET=your-s3-bucket-name \
-   entmike/ip-hackathon-monitor
+   entmike/ip-hackathon-monitor:hackathon
 ```
 
 ### Behind a Corporate Proxy:
@@ -33,7 +33,7 @@ docker run -p 80:80 --name phoneupload \
    -e AWS_BUCKET=your-s3-bucket-name \
    -e http_proxy=http://username:password@proxy.example.com \
    -e https_proxy=https://username:password@proxy.example.com \
-   entmike/ip-hackathon-phone-upload
+   entmike/ip-hackathon-monitor:hackathon
 ```
 
 ## Building Docker Image
