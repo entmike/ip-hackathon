@@ -1,0 +1,21 @@
+{
+    "eslint.validate": [
+      {
+        "language": "vue",
+        "autoFix": true
+      },
+      {
+        "language": "html",
+        "autoFix": true
+      },
+      {
+        "language": "javascript",
+        "autoFix": true
+      }
+    ],
+    "prettier.disableLanguages": [],
+    "eslint.autoFixOnSave": true,
+    "editor.formatOnSave": true,
+    "vetur.validation.template": false
+  }
+  

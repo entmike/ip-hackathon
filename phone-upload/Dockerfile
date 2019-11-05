@@ -8,8 +8,8 @@ COPY ./docker-files/timeout.conf /etc/nginx/conf.d/timeout.conf
 # Install Vue CLI
 RUN npm i -g @vue/cli
 # Copy files
-COPY ./frontend /app/frontend
-COPY ./backend /app/backend
+COPY ./mobile-cameraupload /app/frontend
+COPY ./mobile-cameraupload-backend /app/backend
 # Delete any node_modules for binary build diffs
 RUN rm -Rf /app/backend/node_modules
 # Install Backend and Frontend
